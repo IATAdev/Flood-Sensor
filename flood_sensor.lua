@@ -30,10 +30,10 @@ local function pre_process(msg)
 	  if msg.to.type == 'chat' or msg.to.type == 'channel' then
 		if username then
 
-			send_msg('user#id'..195973896, "Flooding\nGruppo: "..msg.to.print_name:gsub('_', ' ').."\n@"..username.." ["..msg.from.id.."]", ok_cb, false)
+			send_msg('user#id'..Your ID Number, "Flooding\nGruppo: "..msg.to.print_name:gsub('_', ' ').."\n@"..username.." ["..msg.from.id.."]", ok_cb, false)
 		else
 
-			send_msg('user#id'..195973896, "Flooding\nGruppo: "..msg.to.print_name:gsub('_', ' ').."\n"..msg.from.first_name:gsub('_', ' ').." ["..msg.from.id.."]", ok_cb, false)
+			send_msg('user#id'..Your ID Number, "Flooding\nGruppo: "..msg.to.print_name:gsub('_', ' ').."\n"..msg.from.first_name:gsub('_', ' ').." ["..msg.from.id.."]", ok_cb, false)
 		end
 	  end
 
